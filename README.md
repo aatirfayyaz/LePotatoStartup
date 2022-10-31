@@ -4,7 +4,8 @@ The script is at https://github.com/aatirfayyaz/LePotatoStartup
 
 You can git clone it to your desired directory by simply:
 
-git clone https://github.com/aatirfayyaz/LePotatoStartup
+'''git clone https://github.com/aatirfayyaz/LePotatoStartup'''
+
 Once you have the file cloned, there are a few things that need to be done to configure it properly.
 
 You will need to change some variables in the code to your desired parameters. You can do this simply by:
