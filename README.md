@@ -20,6 +20,8 @@ The "to" variable is who you want the email to go to. This could be your primary
 
 The "gmail_password" needs to be extracted from the google account settings page. Sign in to your account and click your name on the top right and go to account settings.
 
+![alt text](https://github.com/aatirfayyaz/LePotatoStartup/blob/main/Manage.png?raw=true)
+
 
 Turn on 2-step verification under security by following all required steps. I configured it for text message to my phone as a secondary verification:
 
