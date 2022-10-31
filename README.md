@@ -70,4 +70,9 @@ sudo chmod a+x /etc/rc.local
 ```
 After completion of all these steps, your LePotato should be configured to send you an email on startup which will contain the IP address so you can SSH into the device! 
 
+A common issue with some users may be that the network isn't established before ```rc.local``` is called. To make sure that the network is connected, it is best to add the following line prior to the script line in ```/etc/rc.local```:
+```
+sleep 10
+```
+
 Hope this is helpful to some.
