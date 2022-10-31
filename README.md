@@ -3,19 +3,20 @@ This is a simple script that greps the IP for the LePotato or RaspberryPi and se
 The script is at https://github.com/aatirfayyaz/LePotatoStartup
 
 You can git clone it to your desired directory by simply:
-
-'''git clone https://github.com/aatirfayyaz/LePotatoStartup'''
+```git clone https://github.com/aatirfayyaz/LePotatoStartup```
 
 Once you have the file cloned, there are a few things that need to be done to configure it properly.
 
 You will need to change some variables in the code to your desired parameters. You can do this simply by:
 
-nano LePotatoStartup/startup_email.py
+```nano LePotatoStartup/startup_email.py```
 Once the file opens, change the following as described below:
 
+```
 to = 'YOUREMAIL@gmail.com'
 gmail_user = 'SENDEREMAIL@gmail.com'
 gmail_password = 'PASSWORDFROMAPP'
+```
 
 The "to" variable is who you want the email to go to. This could be your primary email address. For "gmail_user", you can use a secondary gmail email address. I suggest creating a new email address to keep the whole process cleaner but any email would do. It is necessary to use a gmail email address if you don't want to change any other parameters.
 
