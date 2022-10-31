@@ -22,12 +22,11 @@ The "gmail_password" needs to be extracted from the google account settings page
 
 ![alt text](https://github.com/aatirfayyaz/LePotatoStartup/blob/main/Manage.png?raw=true)
 
-
 Turn on 2-step verification under security by following all required steps. I configured it for text message to my phone as a secondary verification:
-
+![alt text](https://github.com/aatirfayyaz/LePotatoStartup/blob/main/2FA.png?raw=true)
 
 Once complete, you will have access to "App passwords" just below the 2-step verification option. Click on it and generate a new password by clicking on "Other" and adding your desired name to the app. I called it Python. 
-
+![alt text](https://github.com/aatirfayyaz/LePotatoStartup/blob/main/AppPassword.png?raw=true)
 
 Click generate, google will create a password for you. This will be 16 letters. This is what goes in the "gmail_password" variable. No spaces.
 
@@ -45,7 +44,7 @@ If everything works perfectly, you will an output that has the IP addresses foll
 Mail Sent Successfully!
 ****************************************
 You will also see that you received an email to your account (shown below). For your headless display, you need the inet address underlined in red.
-
+![alt text](https://github.com/aatirfayyaz/LePotatoStartup/blob/main/IPemail.png?raw=true)
 
 After making sure that the script is working, the next step is for your potato to automatically send the email on startup.
 
